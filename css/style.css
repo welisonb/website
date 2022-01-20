@@ -1,0 +1,436 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+html,body{
+	height: 100%;
+}
+
+header .container{
+	width: 100%;
+	max-width: 1300px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 2%;
+	flex-wrap: wrap;
+}
+
+.container{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+header h1{
+	font-size: 55px;
+	font-style: italic;
+	color: #D6000D;
+}
+
+header .container h1 span{
+	color: black;
+}
+
+nav.desktop-menu ul{
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+nav.desktop-menu ul li{
+	margin-right: 30px;
+}
+
+nav.desktop-menu ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+	display: block;
+}
+
+nav.desktop-menu ul li.login{
+	background-color: #D6000D;
+	width: 160px;
+	height: 40px;
+	text-align: center;
+	border-radius: 10px;
+	padding-top: 3px;
+	position: relative;
+	top: -5px;
+	font-weight: 600;
+}
+
+nav.desktop-menu ul li.login a{
+	color: white;
+}
+
+
+
+/************AQUI FINALIZA O HEADER**************/
+
+section.sessao1 .container{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	padding: 30px;
+}
+
+section.sessao1 .container .container-wraper{
+	display: flex;
+	width: 100%;
+	padding-left: 5%;
+}
+
+section.sessao1 .img-chamada{
+	width: 40%;
+	min-width: 200px;
+	padding-top: 40%;
+	background-image: url(../assets/video_call.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+section.sessao1 .chamada{
+	padding: 90px;
+}
+
+section.sessao1 .chamada h2{
+	font-size: 26px;
+}
+
+section.sessao1 .chamada h1{
+	font-size: 62px;
+	color: #D6000D;
+}
+
+section.sessao1 .orcamento{
+	width: 300px;
+	height: 50px;
+	background-color: #D6000D;
+	text-align: center;
+	border-radius: 10px;
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+section.sessao1 .orcamento p{
+	color: white;
+	font-size: 25px;
+	padding-top: 8px;
+	font-weight: 600;
+}
+
+
+/******************AQUI FINALIZA PRIMEIRA SECTION**************/
+
+section.sessao2 .container{
+	padding-top: 150px;
+}
+
+section.sessao2 .wrap{
+	display: flex;
+}
+
+section.sessao2 .itens{
+	padding: 90px 2% 0 2%;
+	margin: 0 auto;
+}
+
+section.sessao2 .correct{
+	align-items: center;
+	margin-top: 20px;
+	display: flex;
+}
+
+
+section.sessao2 .correct p{
+	margin-left: 25px;
+	font-size: 25px;
+}
+
+section.sessao2 .img-chamada2 img{
+	width: 100%;
+	max-width: 500px;
+}
+
+section.sessao2 .contato{
+	margin-top: 20px;
+	margin-left: 150px;
+	padding-bottom: 50px;
+}
+
+section.sessao2 .contato input[type=text]{
+	width: 250px;
+	height: 50px;
+	font-size: 19px;
+	background-color: #ddd;
+	border: 0;
+	border-radius: 8px;
+	padding-left: 20px;
+}
+
+section.sessao2 .contato p{
+	width: 250px;
+	text-align: center;
+	margin-left: 10px;
+	margin-top: 10px;
+	display: inline-block;
+	color: white;
+	cursor: pointer;
+	font-size: 20px;
+	background-color: #D6000D;
+	padding: 15px;
+	border-radius: 8px;
+}
+
+
+/*****************AQUI COMEÇA SESSAO 3***************/
+
+
+section.sessao3 .depoimentos{
+	display: flex;
+	padding: 90px 2%;
+	margin: 0 auto;
+	width: 100%;
+}
+
+section.sessao3 .depoimentos .depoimentos-single{
+	width: 100%;
+	max-width: 500px;
+	padding: 20px;
+	background-color: #ddd;
+	margin: 0 auto;
+	border-radius: 10px;
+	display: flex;
+	margin-left: 10px;
+}
+
+section.sessao3 .depoimentos .depoimentos-single .foto{
+	padding: 40px;
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
+	background-color: #D6000D;
+}
+
+section.sessao3 .depoimentos .depoimentos-single .info{
+	margin-left: 20px;
+}
+
+section.sessao3 .depoimentos .depoimentos-single .info p{
+	font-size: 20px;
+}
+
+section.sessao3 .depoimentos .depoimentos-single .info h1{
+	font-weight: 500;
+	margin-top: 10px;
+	font-size: 24px;
+}
+
+
+section.sessao3 .depoimentos .depoimentos-single .info h2{
+	font-weight: 500;
+	font-size: 20px;
+}
+
+
+/*******************AQUI COMEÇA O FOOTER**************/
+
+footer.rodape{
+	width: 100%;
+	background-color: black;
+	padding: 50px 2%;
+}
+
+footer.rodape .container{
+	display: flex;
+	align-items: top;
+}
+
+footer.rodape .final{
+	width: 25%;
+	color: white;
+	padding: 30px;
+}
+
+footer.rodape .final h1{
+	font-size: 50px;
+	font-style: italic;
+	margin-bottom: 10px;
+}
+
+footer.rodape .final h2{
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+footer.rodape .final p{
+	font-size: 20px;
+}
+
+footer.rodape .final img{
+	width: 32px;
+	height: 32px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************AQUI COMEÇA O RESPONSIVO****************/
+
+@media screen and (max-width: 800px){
+	header .container{
+		flex-direction: column;
+	}
+
+	nav.desktop-menu{
+		margin-top: 20px;
+	}
+	nav.desktop-menu ul li{
+		margin-right: 20px;
+	}
+	
+
+	nav.desktop-menu ul li.login{
+		display: none;
+	}
+
+
+
+	/*****final do header mobile********/
+
+
+
+	section.sessao1 .container .container-wraper{
+		flex-direction: column;
+		padding: 0;
+	}
+
+	section.sessao1 .img-chamada{
+		width: 100%;
+		max-width: 400px;
+		min-width: 200px;
+		padding: 50% 0 0 2%;
+		margin: 0 auto;
+	}
+
+	section.sessao1 .chamada{
+		padding: 100px 0 0 0;
+		text-align: center;
+	}
+
+	section.sessao1 .orcamento{
+		display: inline-block;
+	}
+
+	section.sessao2 .wrap{
+		flex-direction: column-reverse;
+	}
+
+	section.sessao2 .img-chamada2 {
+		margin: 0 auto;
+	}
+
+	section.sessao2 .contato{
+		text-align: center;
+		margin: 50px 0;
+	}
+
+	section.sessao2 .contato input[type=text], section.sessao2 .contato p{
+		display: block;
+		margin: 10px auto;
+	}
+
+	section.sessao3{
+	}
+
+	section.sessao3 .depoimentos{
+		flex-direction: column;
+		padding: 0;
+	}
+
+	section.sessao3 .depoimentos .depoimentos-single{
+		margin: 0 auto;
+		margin-top: 30px;
+	}
+
+	footer.rodape{
+		margin-top: 30px;
+	}
+
+	footer.rodape .container{
+		flex-direction: column;
+		text-align: center;
+	}
+
+	footer.rodape .final{
+		width: 100%;
+		padding: 20px;
+	}
+
+	footer.rodape .final h1{
+		margin: 10px;
+	}
+	footer.rodape .final h2{
+		margin: 10px;
+	}
+
+	footer.rodape .final img{
+		margin: 10px;
+	}
+
+}
+
+
+
+@media screen and (max-width: 400px){
+	section.sessao1 .orcamento{
+		width: 200px;
+		height: 40px;
+		background-color: #D6000D;
+		text-align: center;
+		border-radius: 10px;
+		margin-top: 30px;
+		cursor: pointer;
+	}
+
+	section.sessao1 .orcamento p{
+		color: white;
+		font-size: 20px;
+		padding-top: 6px;
+		font-weight: 600;
+	}
+}
+
+
